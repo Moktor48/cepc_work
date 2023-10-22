@@ -2,13 +2,13 @@ export default function ContactEntry() {
     return(
         <div>
             <form>
-                <label htmlFor="firstName">First Name</label>
+                <label htmlFor="firstName">First Name     </label>
                 <input type="text" id="firstName"></input><br />
-                <label htmlFor="lastName">Last Name</label>
+                <label htmlFor="lastName">Last Name     </label>
                 <input type="text" id="lastName"></input><br />
-                <label htmlFor="orgName">Organization</label>
+                <label htmlFor="orgName">Organization     </label>
                 <input type="text" id="orgName"></input><br /><br />
-                <label htmlFor="lastConDate">Last Contact</label>
+                <label htmlFor="lastConDate">Last Contact</label><br />
                 <input type="date" id="lastConDate"></input><br />
                 <input type="radio" id="lastConTypePer" name="lastConType"></input>
                 <label htmlFor="lastConTypePer">In-Person</label><br />
@@ -18,7 +18,7 @@ export default function ContactEntry() {
                 <label htmlFor="lastConTypePh">Phone</label><br />                
                 <input type="radio" id="lastConTypeVM" name="lastConType"></input>
                 <label htmlFor="lastConTypeVM">Virtual Meeting</label><br /><br />
-                <label htmlFor="nextConDate">Next Scheduled Contact</label>
+                <label htmlFor="nextConDate">Next Scheduled Contact</label><br />
                 <input type="date" id="nextConDate"></input><br />
                 <input type="radio" id="nextConTypePer" name="nextConType"></input>
                 <label htmlFor="nextConTypePer">In-Person</label><br />                
